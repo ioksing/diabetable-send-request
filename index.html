@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+</head>
+
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">
+                <span>D</span>ia<span>B</span>eat<span>A</span>ble
+            </a>
+        </div>
+        <div class="nav-list">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+    </div>
+    <!-- End of Menu -->
+
+    <div class="container">
+        <!-- Section 1 -->
+        <section class="section-1" id="home">
+            <div class="banner">
+                <h1 class="banner-heading">
+                    <span class="heading-1">Real-time</span>
+                    <span class="heading-2">Accurate</span>
+                    <span class="heading-3">Comfortable</span>
+                    <span class="heading-4">Easy</span>
+                </h1>
+                <p class="banner-paragraph">Build up diabetes monitering.</p>
+                <button class="banner-btn">Discover Now</button>
+            </div>
+        </section>
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+        <section class="section-2" id="about-us">
+            <h1 class="section-heading">About Us</h1>
+            <div class="section-heading-line"></div>
+            <div class="video-wrapper">
+                <video src="images/about-us-video.mp4" class="video"></video>
+                <div class="controls">
+                    <div class="video-bar-wrapper">
+                        <div class="video-bar"></div>
+                    </div>
+                    <div class="buttons">
+                        <button id="play-pause">
+                  <i class="far fa-play-circle"></i>
+                </button>
+                    </div>
+                </div>
+            </div>
+            <p class="section-2-paragraph">
+                <i class="fas fa-quote-left"></i>The accuracy itself is important to diabetes patients. You might ever encounter the very encumbered by over-eating, whence any error pushes back the physical health, also are they the mental health, unless
+                I will explain our products by the word that will come to pass.
+                <i class="fas fa-quote-right"></i>
+            </p>
+        </section>
+        <!-- End of Section 2 -->
+
+
+        <!-- Section 4 -->
+        <section class="section-4" id="contact">
+            <h1 class="section-heading">Contact</h1>
+            <div class="section-heading-line"></div>
+            <div class="contact-wrapper">
+                <div class="contact-details">
+                    <div class="phone">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Phone</h3>
+                        <p>+425 516 9435</p>
+                        <p>+626 342 2815</p>
+                    </div>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>12280 NE District Way</p>
+                        <p>Bellevue, WA 98005</p>
+                    </div>
+                    <div class="email">
+                        <i class="far fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>ioksing@uw.edu</p>
+                        <p>wec221@uw.edu</p>
+                    </div>
+                </div>
+                <h1>Get your prediction</h1>
+                <form class="contact-form">
+
+                    <input type="text" id="height" placeholder="Your Height">
+                    <input type="text" id="weight" placeholder="Your Weight">
+                    <input type="text" id="age" placeholder="Your Age">
+                    <input type="text" id="presugar" placeholder="Pre-meal Blood Sugar Level">
+                    <input type="text" id="carbo" placeholder="Carbonhydrate">
+                    <button type='button' onclick="sendJSON()">Send </button>
+
+
+
+                </form>
+            </div>
+            <p class="result" style="color: red">tests</p>
+        </section>
+        <!-- End of Section 4 -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">Copyright &copy; Diabeatable All Rights Reserved</p>
+        </footer>
+        <!-- End of Footer -->
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
